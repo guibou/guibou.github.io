@@ -1,0 +1,263 @@
+code size summary per package:
+
+MonadPrompt-1.0.0.5-KrYQtdvG2p5AHcEGQf4iER:1180
+base:                    404243
+bytestring-0.10.8.2-FBklFuapa1a7kq4yflY7Bt:1263
+clay-0.13.1-HbBNNg2ldSTIi23q9qsaGI:182026
+containers-0.6.0.1-BAqcfV1UBBeCIRjPbUYeSG:180663
+dependent-map-0.3-J6d7kUT0ZYK7IgitBxw3Vc:49728
+dependent-sum-0.6.2.0-5De0IgisMpv5GobNkxtAW3:5439
+gendarmerie-0.1.0.0-G0gIEf9N9Y2E4BSF4xMRuL:157956
+ghc-prim:                1236984
+ghcjs-base-0.2.0.0-94o7qH5GqxYIuAX83RduIv:2128
+ghcjs-dom-jsffi-0.9.4.0-76Ln42WLg2C47qQnHuJVX0:27056
+ghcjs-prim-0.1.1.0-EXzjGVHQlAS2XAXcu0iCbS:4535
+integer-gmp:             2225
+main:                    61437
+patch-0.0.3.1-JAUSkOPIwnhIL2tlx9DcxV:34114
+primitive-0.6.3.0-KfguiTuxgILGqu8JEOpKRI:15767
+random-1.1-GAiTrdKbvqXBKvSOZFfo82:4758
+random-fu-0.2.7.0-6WDDXa05ESQ5ntTXgCJ2Zq:12230
+random-shuffle-0.0.4-AuSXoTldSzX8ObStLpjCzH:1
+random-source-0.3.0.6-Bxfgz0E3wjj8LPWL7LLPmb:3408
+ref-tf-0.4.0.1-4fEDYopgtHB1kxZabrLLUM:482
+reflex-0.6.4.1-HZhV7VoRaQ9DUutxODAbz:444858
+reflex-dom-core-0.5.3-5TnYdFLhYP44mYZ4TQvMP3:789983
+semialign-1-2ZdWjfX2bRBKgQJ9K0XY1U:1840
+text-1.2.3.0-G7RNccSav6I3egGIwK0cpP:21584
+these-1-EA3bKa7y0pp7XGNr21nVuT:948
+time-1.8.0.2-3d3i5aGvKEfEHwUSNgliL4:2712
+transformers-0.5.6.2-KaPP0fdMTwBF02jPgfEE5s:2123
+
+
+code size per module:
+
+MonadPrompt-1.0.0.5-KrYQtdvG2p5AHcEGQf4iER
+    Control.Monad.Prompt:               1180
+
+base
+    Control.Concurrent.Chan:            1134
+    Control.Exception.Base:             1
+    Control.Monad.Fix:                  1
+    Control.Monad.IO.Class:             1
+    Data.Either:                        1
+    Data.Fixed:                         1
+    Data.Functor.Product:               1295
+    Data.Maybe:                         7190
+    Data.OldList:                       1
+    Data.Proxy:                         5238
+    Data.Semigroup.Internal:            1
+    Data.Tuple:                         1
+    Data.Type.Coercion:                 1
+    Data.Type.Equality:                 42678
+    Data.Typeable.Internal:             9964
+    Foreign.C.Error:                    878
+    Foreign.Marshal.Alloc:              2644
+    Foreign.Storable:                   2287
+    GHC.Arr:                            3521
+    GHC.Base:                           5909
+    GHC.Conc.Sync:                      13157
+    GHC.Enum:                           133
+    GHC.Err:                            7214
+    GHC.Exception:                      2579
+    GHC.Exception.Type:                 5076
+    GHC.Fingerprint:                    546
+    GHC.Fingerprint.Type:               42766
+    GHC.Float:                          10844
+    GHC.Foreign:                        162
+    GHC.ForeignPtr:                     1482
+    GHC.IO:                             506
+    GHC.IO.Buffer:                      1
+    GHC.IO.BufferedIO:                  224
+    GHC.IO.Device:                      404
+    GHC.IO.Encoding:                    600
+    GHC.IO.Encoding.Failure:            2575
+    GHC.IO.Encoding.Latin1:             1
+    GHC.IO.Encoding.Types:              58268
+    GHC.IO.Encoding.UTF8:               11469
+    GHC.IO.Exception:                   24909
+    GHC.IO.FD:                          276
+    GHC.IO.Handle:                      4666
+    GHC.IO.Handle.FD:                   29858
+    GHC.IO.Handle.Internals:            15763
+    GHC.IO.Handle.Text:                 1906
+    GHC.IO.Handle.Types:                86
+    GHC.IO.Unsafe:                      157
+    GHC.IORef:                          7402
+    GHC.Int:                            7464
+    GHC.List:                           1
+    GHC.MVar:                           1
+    GHC.Maybe:                          1121
+    GHC.Num:                            113
+    GHC.Ptr:                            9389
+    GHC.Real:                           97
+    GHC.STRef:                          13238
+    GHC.Show:                           4002
+    GHC.Stack.CCS:                      488
+    GHC.Stack.Types:                    9373
+    GHC.TopHandler:                     1
+    GHC.Weak:                           10114
+    GHC.Word:                           3703
+    Numeric:                            1128
+    System.CPUTime:                     206
+    System.CPUTime.Unsupported:         911
+    System.IO:                          13503
+    System.Posix.Internals:             1
+    Unsafe.Coerce:                      3612
+
+bytestring-0.10.8.2-FBklFuapa1a7kq4yflY7Bt
+    Data.ByteString.Internal:           1263
+
+clay-0.13.1-HbBNNg2ldSTIi23q9qsaGI
+    Clay.Common:                        147
+    Clay.Display:                       1
+    Clay.Property:                      83263
+    Clay.Render:                        11730
+    Clay.Selector:                      157
+    Clay.Stylesheet:                    86728
+
+containers-0.6.0.1-BAqcfV1UBBeCIRjPbUYeSG
+    Data.IntMap.Internal:               36352
+    Data.IntMap.Strict:                 70764
+    Data.Map.Internal:                  73547
+
+dependent-map-0.3-J6d7kUT0ZYK7IgitBxw3Vc
+    Data.Dependent.Map:                 49727
+    Data.Dependent.Map.Internal:        1
+
+dependent-sum-0.6.2.0-5De0IgisMpv5GobNkxtAW3
+    Data.Dependent.Sum:                 1299
+    Data.GADT.Compare:                  2155
+    Data.Some:                          1985
+
+gendarmerie-0.1.0.0-G0gIEf9N9Y2E4BSF4xMRuL
+    UIReflex.CSS:                       156056
+    UIReflex.UI:                        1900
+
+ghc-prim
+    GHC.CString:                        5042
+    GHC.Classes:                        451
+    GHC.IntWord64:                      1610
+    GHC.Tuple:                          173
+    GHC.Types:                          1229708
+
+ghcjs-base-0.2.0.0-94o7qH5GqxYIuAX83RduIv
+    Data.JSString:                      164
+    Data.JSString.Internal.Fusion.Common:254
+    Data.JSString.Internal.Fusion.Types:110
+    Data.JSString.Internal.Type:        1101
+    GHCJS.Buffer:                       1
+    GHCJS.Marshal.Internal:             1
+    JavaScript.Array.Internal:          497
+
+ghcjs-dom-jsffi-0.9.4.0-76Ln42WLg2C47qQnHuJVX0
+    GHCJS.DOM:                          841
+    GHCJS.DOM.EventM:                   1
+    GHCJS.DOM.EventTargetClosures:      858
+    GHCJS.DOM.JSFFI.Generated.Document: 1260
+    GHCJS.DOM.JSFFI.Generated.DocumentAndElementEventHandlers:468
+    GHCJS.DOM.JSFFI.Generated.DocumentOrShadowRoot:194
+    GHCJS.DOM.JSFFI.Generated.Element:  118
+    GHCJS.DOM.JSFFI.Generated.Event:    7344
+    GHCJS.DOM.JSFFI.Generated.GlobalEventHandlers:668
+    GHCJS.DOM.JSFFI.Generated.HTMLInputElement:3609
+    GHCJS.DOM.JSFFI.Generated.Node:     4323
+    GHCJS.DOM.Types:                    7372
+
+ghcjs-prim-0.1.1.0-EXzjGVHQlAS2XAXcu0iCbS
+    GHCJS.Prim:                         2236
+    GHCJS.Prim.Internal:                2299
+
+integer-gmp
+    GHC.Integer.Type:                   2225
+
+main
+    Main:                               61437
+
+patch-0.0.3.1-JAUSkOPIwnhIL2tlx9DcxV
+    Data.Functor.Misc:                  161
+    Data.Patch.Class:                   6487
+    Data.Patch.DMap:                    20931
+    Data.Patch.DMapWithMove:            4207
+    Data.Patch.IntMap:                  428
+    Data.Patch.Map:                     1899
+    Data.Patch.MapWithMove:             1
+
+primitive-0.6.3.0-KfguiTuxgILGqu8JEOpKRI
+    Control.Monad.Primitive:            15767
+
+random-1.1-GAiTrdKbvqXBKvSOZFfo82
+    System.Random:                      4758
+
+random-fu-0.2.7.0-6WDDXa05ESQ5ntTXgCJ2Zq
+    Data.Random.Distribution.Uniform:   3031
+    Data.Random.List:                   9199
+
+random-shuffle-0.0.4-AuSXoTldSzX8ObStLpjCzH
+    System.Random.Shuffle:              1
+
+random-source-0.3.0.6-Bxfgz0E3wjj8LPWL7LLPmb
+    Data.Random.Source.Internal.Prim:   3407
+    Data.Random.Source.StdGen:          1
+
+ref-tf-0.4.0.1-4fEDYopgtHB1kxZabrLLUM
+    Control.Monad.Ref:                  482
+
+reflex-0.6.4.1-HZhV7VoRaQ9DUutxODAbz
+    Control.Monad.ReaderIO:             207
+    Data.FastMutableIntMap:             1246
+    Data.Map.Misc:                      143
+    Data.WeakBag:                       919
+    Reflex.Adjustable.Class:            11995
+    Reflex.Class:                       4099
+    Reflex.Dynamic:                     141
+    Reflex.FastWeak:                    85
+    Reflex.Host.Class:                  1
+    Reflex.NotReady.Class:              34808
+    Reflex.PerformEvent.Base:           1595
+    Reflex.PerformEvent.Class:          25438
+    Reflex.PostBuild.Base:              1
+    Reflex.PostBuild.Class:             66686
+    Reflex.Requester.Base:              1
+    Reflex.Requester.Class:             286303
+    Reflex.Spider.Internal:             9605
+    Reflex.TriggerEvent.Base:           1
+    Reflex.TriggerEvent.Class:          1584
+
+reflex-dom-core-0.5.3-5TnYdFLhYP44mYZ4TQvMP3
+    Foreign.JavaScript.TH:              2130
+    Reflex.Dom.Builder.Class:           133396
+    Reflex.Dom.Builder.Class.Events:    566460
+    Reflex.Dom.Builder.Immediate:       43554
+    Reflex.Dom.Main:                    42056
+    Reflex.Dom.Widget.Basic:            2387
+
+semialign-1-2ZdWjfX2bRBKgQJ9K0XY1U
+    Data.Semialign.Internal:            1840
+
+text-1.2.3.0-G7RNccSav6I3egGIwK0cpP
+    Data.Text:                          503
+    Data.Text.Array:                    5134
+    Data.Text.Encoding:                 2565
+    Data.Text.Encoding.Error:           1006
+    Data.Text.Internal.Builder:         209
+    Data.Text.Internal.Lazy:            12166
+    Data.Text.Lazy:                     1
+
+these-1-EA3bKa7y0pp7XGNr21nVuT
+    Data.These:                         948
+
+time-1.8.0.2-3d3i5aGvKEfEHwUSNgliL4
+    Data.Time.Clock.Internal.CTimespec: 1
+    Data.Time.Clock.Internal.UTCTime:   601
+    Data.Time.Clock.POSIX:              998
+    Data.Time.Clock.System:             1112
+
+transformers-0.5.6.2-KaPP0fdMTwBF02jPgfEE5s
+    Control.Monad.Trans.Reader:         1690
+    Control.Monad.Trans.State.Strict:   433
+
+
+
+packed metadata: 1080744
+
